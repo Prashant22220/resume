@@ -5,12 +5,20 @@ body{
     border: 5px solid black;
 }
 
+main{
+    border: 4px solid black;
+    padding-left: 3%;
+    margin: 4%;
+    background-color:#94d2bd;
+    padding-bottom: 2%;
+}
+
 
 h1{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 46px;
-    color: white;
+    color: black;
     
 }
 
@@ -18,6 +26,7 @@ h1:hover{
 color: #000;
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
 
 
 img{
@@ -28,19 +37,37 @@ img{
 
 }
 
-#table{
+.color h5{
+      font-size: 16px;
+}
 
-    width: 80%;
-    height: 20vh;
-    text-align: center;
-    margin: 0 auto;
+
+.color p{
+    margin-bottom: 20px;
+}
+
+.color ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.color li {
+    margin: 0 10px;
 
 }
 
-section {
-    padding: 0 15px;
-    max-width: 1140px;
-    margin: 0 auto;
+
+.color li a{
+
+    color: #ffffff;
+    text-decoration: none;
+    background: red;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
 
 .container {
@@ -59,34 +86,20 @@ section {
 
 }
 
-main{
-    border: 4px solid black;
-    padding-left: 3%;
-    margin: 4%;
-    background-color:#94d2bd;
-    padding-bottom: 2%;
+section {
+    padding: 0 15px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 
-.color ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+#table{
 
-.color li {
-    margin: 0 10px;
+    width: 80%;
+    height: 20vh;
+    text-align: center;
+    margin: 0 auto;
 
-}
-.color li a{
-
-    color: #ffffff;
-    text-decoration: none;
-    background: red;
-    border-radius: 8px;
-    padding: 10px 20px;
 }
 
 
